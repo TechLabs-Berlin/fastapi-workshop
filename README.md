@@ -41,5 +41,7 @@ Enter the directory `/frontend` and run the following two commands:
 
 ```bash
 npm install
-npm run dev
+npm start
 ```
+
+This installs all dependecneis and runs the development page.
