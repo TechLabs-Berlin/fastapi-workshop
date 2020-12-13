@@ -35,7 +35,7 @@ def get_one_note(note_id: int):
     raise HTTPException(status_code=404, detail=f"Cannot find note with id {note_id}.")
 
 
-@app.post("/notes", response_model=schemas.Note)
+@app.post("/notes", response_model=schemas.Note, status_code=201)
 def post_note(note_create: schemas.NoteCreate):
     print(note_create)
 
