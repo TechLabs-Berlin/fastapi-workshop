@@ -45,3 +45,19 @@ npm start
 ```
 
 This installs all dependecneis and runs the development page.
+
+## Access
+
+### 1. Backend
+
+The backend is accessible via http://localhost:8000.  
+Under http://localhost:8000/docs you can access the API specification.
+
+![Backend FastAPI Specification](./docs/backend.png)
+
+### 2. Frontend
+
+The frontend is accessible via http://localhost:3000.  
+You can access the API via the frontend.
+
+![Frontend View](./docs/frontend.png)
