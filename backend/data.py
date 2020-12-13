@@ -6,7 +6,7 @@ data = [
 		id=1,
 		title="Some Note 1",
 		text="this is a note text",
-		tags=[],
+		tags=["important", "urgent"],
 	),
 	schemas.Note(
 		id=2,
@@ -18,6 +18,6 @@ data = [
 		id=3,
 		title="Some Note 3",
 		text="this is a note text",
-		tags=[],
+		tags=["not important"],
 	),
 ];
